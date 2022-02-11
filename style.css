@@ -1,0 +1,82 @@
+.first-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(147, 154, 190);
+  }
+  .heading {
+    color: rgb(48, 43, 43);
+    font-size: 70px;
+    text-shadow: 1px 1px 2px rgb(247, 55, 55);
+
+  }
+  .main-container {
+    border: 4px solid rgb(90, 76, 76);
+    border-radius: 1rem;
+    display: block;
+    width: 400px;
+    height: 350px;
+    background-color: teal;
+  }
+  .sub-container {
+    margin: 10px;
+  }
+  #app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  #select1 {
+    height: 40px;
+    width: 185px;
+    margin-left: 5px;
+    border-radius: 0.5rem;
+  }
+  .from1 {
+    margin-left: 75px;
+    font-size: large;
+    font-weight: 600;
+  }
+  .To {
+    font-size: large;
+    margin-left: 75px;
+    font-weight: 600;
+  }
+  #select2 {
+    height: 40px;
+    width: 185px;
+    border-radius: 0.5rem;
+  }
+  #inputid {
+    width: 370px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 0.5rem;
+  }
+  
+  button {
+    margin-left: 65px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(41, 33, 33);
+    text-shadow: 1px 1px 2px rgb(24, 23, 23);
+    color:rgb(236, 4, 4);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  #ans {
+    width: 370px;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: 2px solid rgb(24, 23, 23);
+  }
+
+  
